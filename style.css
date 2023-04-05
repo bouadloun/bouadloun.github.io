@@ -7,7 +7,7 @@ body {
 #screen {
   width: 100vw;
   height: 100vh;
-  background-color: rgb(220, 214, 196);
+  background-image: url("/explosion-colored-powder-white-background.jpg");
   display: flex;
   justify-content: center;
   align-items: center;
@@ -115,4 +115,9 @@ body {
 
 .color-name {
   color: pink;
+  font: 75px "Roboto Condensed";
+  font-weight: bold;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
