@@ -30,7 +30,7 @@ body {
 }
 
 .hidden {
-  display: None;
+  display: None !important;
 }
 
 .title {
@@ -79,7 +79,40 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 70px;
   text-align: center;
   font-size: 50px;
+}
+
+.large-padding {
+  padding: 70px;
+}
+
+.small-padding {
+  padding: 10px;
+}
+
+.buttons {
+  color: black;
+  font-size: 10px;
+  padding: 30px 57px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 2px solid black;
+  width: 10%;
+  margin: 1%;
+}
+
+.centered-list {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 50px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.color-name {
+  color: pink;
 }

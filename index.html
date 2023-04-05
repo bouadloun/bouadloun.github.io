@@ -13,30 +13,42 @@
   <body>
     <div id="screen">
       <div id="game-container">
-        <div id="menu">
+        <div id="menu" class="hidden">
           <h1 class="title">Click the COLOR and not the WORD</h1>
           <h3 class="text">
             Five levels. Increasing distractions. Against the clock. All you
             have to do: click the colour and not the word.
           </h3>
-          <a class="button" href="#">Play</a>
+          <a class="button" id="play-button" href="#">Play</a>
         </div>
-        <div id="game" class="hidden">
-          <h1>Now you play</h1>
+
+        <div id="game">
+          <h1 class="title color-name">Red</h1>
+          <div class="centered-list">
+            <a class="buttons" href="#">Green</a>
+            <a class="buttons" href="#">Blue </a>
+            <a class="buttons" href="#">Yellow</a>
+            <a class="buttons" href="#">Pink </a>
+            <a class="buttons" href="#"> Red </a>
+            <a class="buttons" href="#">Black</a>
+          </div>
         </div>
+
         <div id="game-over" class="hidden">
-          <h1 class="centered-text">Time is up</h1>
-          <a class="button" href="#">Play again?</a>
+          <h1 class="centered-text large-padding">Time is up</h1>
+          <a class="button" id="play-again-button" href="#">Play again?</a>
         </div>
+
         <div id="game-won" class="hidden">
-          <h1 class="centered-text">You win</h1>
+          <h1 class="centered-text small-padding">You win</h1>
           <img
             src="https://media.giphy.com/media/dBf0OpOH96MTM6hYqr/giphy.gif"
           />
+          <a class="button" id="back-home-button" href="#">Back to Home</a>
         </div>
       </div>
     </div>
-
-    <!-- <script src="./js/obstacle.js"></script>> -->
   </body>
+
+  <script src="./index.js"></script>
 </html>
