@@ -115,9 +115,31 @@ body {
 
 .color-name {
   color: pink;
-  font: 75px "Roboto Condensed";
+  font: 55px "Roboto Condensed";
   font-weight: bold;
   text-align: center;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
+}
+
+#timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#final-won-score {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 40px;
+}
+
+#final-lost-score {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 40px;
 }

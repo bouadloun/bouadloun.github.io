@@ -16,31 +16,33 @@
         <div id="menu">
           <h1 class="title">Click the COLOR and not the WORD</h1>
           <h3 class="text">
-            Five levels. Increasing distractions. Against the clock. All you
-            have to do: click the colour and not the word.
+            Race against the clock! See how many colours you can click. All you
+            have to do is click the colour of the word.
           </h3>
           <a class="button" id="play-button" href="#">Play</a>
         </div>
 
         <div id="game" class="hidden">
+          <h1 id="timer"></h1>
           <h1 class="title color-name" id="random-word">Red</h1>
           <div class="centered-list">
-            <a class="buttons" href="#">Green</a>
-            <a class="buttons" href="#">Blue </a>
-            <a class="buttons" href="#">Yellow</a>
-            <a class="buttons" href="#">Pink </a>
-            <a class="buttons" href="#"> Red </a>
-            <a class="buttons" href="#">Purple</a>
+            <a class="buttons" href="#">green</a>
+            <a class="buttons" href="#">blue</a>
+            <a class="buttons" href="#">yellow</a>
+            <a class="buttons" href="#">pink</a>
+            <a class="buttons" href="#">red</a>
+            <a class="buttons" href="#">purple</a>
           </div>
         </div>
 
         <div id="game-over" class="hidden">
-          <h1 class="centered-text large-padding">Time is up</h1>
+          <h1 id="final-lost-score"></h1>
+          <h1 class="centered-text large-padding">You lost</h1>
           <a class="button" id="play-again-button" href="#">Play again?</a>
         </div>
 
         <div id="game-won" class="hidden">
-          <h1 class="centered-text small-padding">You win</h1>
+          <h1 id="final-won-score"></h1>
           <img
             src="https://media.giphy.com/media/dBf0OpOH96MTM6hYqr/giphy.gif"
           />
